@@ -6,8 +6,6 @@ import AddStudent from './pages/AddStudent';
 import ViewStudent from './pages/ViewStudent';
 import TakeAttendance from './pages/TakeAttendance';
 import ViewAttendance from './pages/ViewAttendance';
-import AssignTest from './pages/AssignTest';
-import ViewResult from './pages/ViewResult';
 import Login from './pages/Login';
 
 const App = () => {
@@ -123,8 +121,6 @@ const App = () => {
           <Route path="viewstudent" element={<ViewStudent list={filteredList} handleDelete={handleDelete} handleEdit={handleEdit} />} />
           <Route path='takeattendance' element={<TakeAttendance list={list} attendance={attendance} setAttendance={setAttendance} />} />
           <Route path='viewattendance' element={<ViewAttendance list={list} attendance={attendance} />} />
-          <Route path='assigntest' element={<AssignTest list={list} setList={setList} />} />
-          <Route path='viewresult' element={<ViewResult list={list} setList={setList} />} />
         </Route>
       </Routes>
     </>

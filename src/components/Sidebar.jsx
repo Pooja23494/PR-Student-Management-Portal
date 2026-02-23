@@ -75,12 +75,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                             <div data-i18n="Horizontal Form">Attendance</div>
                         </NavLink>
                     </li>
-                    <li className="menu-item">
-                        <NavLink to="/dashboard/assigntest" className="menu-link">
-                            <i className="menu-icon tf-icons bx bx-detail" />
-                            <div data-i18n="Horizontal Form">Test</div>
-                        </NavLink>
-                    </li>
                     {/* Tables */}
                     <li className="menu-item">
                         <NavLink to="/dashboard/viewstudent" className="menu-link">
@@ -92,12 +86,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
                         <NavLink to="/dashboard/viewattendance" className="menu-link">
                             <i className="menu-icon tf-icons bx bx-table" />
                             <div data-i18n="Tables">Attendance Records</div>
-                        </NavLink>
-                    </li>
-                    <li className="menu-item">
-                        <NavLink to="/dashboard/viewresult" className="menu-link">
-                            <i className="menu-icon tf-icons bx bx-table" />
-                            <div data-i18n="Tables">View Result</div>
                         </NavLink>
                     </li>
                 </ul>
