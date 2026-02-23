@@ -1,0 +1,14 @@
+/* ===== Smooth Sidebar Animation (Strong Override) ===== */
+
+@media (max-width: 1199.98px) {
+  .layout-menu {
+    transform: translateX(-100%) !important;
+    transition: transform 0.35s ease-in-out !important;
+  }
+
+  .layout-wrapper.layout-menu-expanded .layout-menu {
+    transform: translateX(0) !important;
+  }
+}
+
+
