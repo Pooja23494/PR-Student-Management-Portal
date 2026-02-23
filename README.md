@@ -3,6 +3,11 @@
 A modern and responsive **Student Management Portal** web application for administrators and users to manage student profiles, academic details, and related information. This project is deployed live at:  
 👉 https://pr-student-management-portal.vercel.app/
 
+## Login 
+
+- userName : admin
+- Password : admin123
+
 ## 🚀 Features
 
 - 🔐 User authentication (Login)
