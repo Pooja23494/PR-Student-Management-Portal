@@ -14,10 +14,6 @@ const Dashboard = () => {
 
   const totalStudents = students.length;
 
-  const totalResults = students.filter(
-    (std) => std.tests && std.tests.length > 0
-  ).length;
-
   const totalAttendance = attendance.length;
 
   const recentStudents = students.slice(-4).reverse();
@@ -49,7 +45,7 @@ const Dashboard = () => {
           <div className="card shadow-sm border-0">
             <div className="card-body">
               <h6>Results Available</h6>
-              <h3 className="fw-bold">{totalResults}</h3>
+              <h3 className="fw-bold">0</h3>
             </div>
           </div>
         </div>
@@ -100,7 +96,7 @@ const Dashboard = () => {
             </div>
             <div className="card-body">
               <p>Total Students: <strong>{totalStudents}</strong></p>
-              <p>Students with Results: <strong>{totalResults}</strong></p>
+              <p>Students with Results: <strong></strong></p>
               <p>Attendance Records: <strong>{totalAttendance}</strong></p>
             </div>
           </div>
@@ -117,7 +113,6 @@ const Dashboard = () => {
               <ul>
                 <li>Student CRUD Module</li>
                 <li>Attendance Module</li>
-                <li>Test & Result Module</li>
                 <li>LocalStorage Database</li>
               </ul>
             </div>
